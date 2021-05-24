@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body style="overflow-y: hidden">
+  <h1 style="font-family: Roboto;color: white;position: relative; top: 30px;left: 30px;font-size: 300%;">
+    I know you have waited long enough...
+  </h1>
+    <h1 style="font-family: Roboto;font-size: 300%;color: white;position: relative; top: 30px; left: 30px"> You are just one click away from the present....</h1>
+</div>
+<button id="button" class="btn-grad btn-grad:hover">Let's go!</button>
+<script src="jquery-3.4.1.min.js"></script>
+<script>
+    $().ready(function(){
+    $("#button").click(function(){
+    setTimeout(function () {
+        window.location.replace("index1.html")
+
+    },1000)
+  });
+
+});
+</script>
+</body>
+</html>
